@@ -4687,3 +4687,23 @@ input, select, textarea {
 		}
 
 	}
+
+	ul.stacked-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem; /* or whatever spacing looks best */
+		}
+	
+	.button-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem; /* spacing between buttons */
+		margin-top: 2rem;
+		}
+
+		.button-grid .button {
+		flex: 1 1 220px; /* Allow wrapping, keep min width */
+		text-align: center;
+		}
