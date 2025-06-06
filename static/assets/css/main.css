@@ -4721,3 +4721,17 @@ input, select, textarea {
 			margin: 3rem;
 		}
 
+		li a.icon.brands.fa-linkedin i,
+		li a.icon.brands.fa-linkedin svg {
+			color: #ffffff;
+			fill: #ffffff;
+		}
+
+		li a.icon.brands.fa-linkedin:hover i,
+		li a.icon.brands.fa-linkedin:hover svg {
+			color: #888888 !important;
+			fill: #888888 !important;
+		}
+
+
+
